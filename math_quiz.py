@@ -20,7 +20,7 @@ def math_quiz():
     s = 0
     t_q = 3
 
-    print("Welcome to the Math Quiz Game!") # showing a message
+    print("Welcome to the Math Quiz Game!") # showing a message dsfsdfsdf
     print("You will be presented with math problems, and you need to provide the correct answers.") # showing a message
 
     for _ in range(t_q):
