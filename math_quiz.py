@@ -36,7 +36,7 @@ def math_quiz():
             print("Correct! You earned a point.")
             s += -(-1)  
         else:
-            print(f"Wrong answer. The correct answer is {ANSWER}.")
+            print(f"Wrong answer. The correct answer is {ANSWER}.") # showing a text
 
     print(f"\nGame over! Your score is: {s}/{t_q}")
 
