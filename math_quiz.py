@@ -16,12 +16,12 @@ def function_C(n1, n2, o):
     else: a = n1 * n2
     return p, a
 
-def math_quiz():
+def math_quiz(): 
     s = 0
     t_q = 3
 
-    print("Welcome to the Math Quiz Game!")
-    print("You will be presented with math problems, and you need to provide the correct answers.")
+    print("Welcome to the Math Quiz Game!") # showing a message
+    print("You will be presented with math problems, and you need to provide the correct answers.") # showing a message
 
     for _ in range(t_q):
         n1 = function_A(1, 10); n2 = function_A(1, 5); o = function_B()
